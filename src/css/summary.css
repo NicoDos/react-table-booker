@@ -1,0 +1,11 @@
+.summary {
+  text-align: center;
+  color: #00bcd4;
+  padding: 10px;
+  border-radius: 4px; }
+  .summary.error {
+    background-color: lightcoral;
+    border: brown; }
+  .summary.success {
+    background-color: lightgreen;
+    border: green; }

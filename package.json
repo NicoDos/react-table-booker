@@ -1,0 +1,31 @@
+{
+  "name": "table-booker",
+  "version": "1.0.0",
+  "private": false,
+  "contributores": "Nicolas Sandron <nicolas.sandron@gmail.com> (http://nicolassandron.com/)",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "material-ui": "^0.20.0",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "moment": "^2.20.1",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-datetime": "^2.14.0",
+    "react-dom": "^16.2.0",
+    "react-scripts-ts": "2.8.0"
+  },
+  "scripts": {
+    "build": "npm run build-css && react-scripts-ts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "eject": "react-scripts-ts eject",
+    "start-js": "react-scripts-ts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.27",
+    "@types/react-dom": "^16.0.3",
+    "typescript": "2.6.1"
+  }
+}

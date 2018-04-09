@@ -1,0 +1,16 @@
+.summary {
+  text-align: center;
+  color: rgb(0, 188, 212);
+  padding: 10px;
+  border-radius: 4px;
+
+  &.error {
+    background-color: lightcoral;
+    border: brown;
+  }
+
+  &.success {
+    background-color: lightgreen;
+    border: green;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../node_modules/react-datetime/css/react-datetime.css";
+
+@import "./booking-details.scss";
+@import "./datetime.scss";
+@import "./loading.scss";
+@import "./summary.scss";
+@import "./table-picker.scss";
+@import "./typography.scss";
+
+.frame-container {
+  min-height: 450px;
+  position: relative;
+  background-color: #ffffff;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.tab {
+  padding: 30px;
+}
