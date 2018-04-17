@@ -3,8 +3,13 @@
 This project is a basic booking system when users need to provide:
 - Number of people 
 - Date of arrival
-- A time range of arrival
+- Time range of arrival
 - Contact information
+
+![Number of people](http://nicolassandron.com/table-booker/images/nbr-of-people.png)
+![Date of arrival](http://nicolassandron.com/table-booker/images/date-of-arrival.png)
+![Time Range](http://nicolassandron.com/table-booker/images/time-range.png)
+![Details](http://nicolassandron.com/table-booker/images/details.png)
 
 ## Getting Started
 
