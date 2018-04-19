@@ -32,6 +32,10 @@ class App extends React.Component {
       return this.setState({activeTab: 0});
     }
 
+    if (!this.state.date) {
+      return this.setState({activeTab: 1});
+    }
+
     if (!this.state.timeRange) {
       return this.setState({activeTab: 2});
     }
@@ -77,13 +81,13 @@ class App extends React.Component {
       let summary = ``;
 
       if(this.state.numberOfGuests) {
-        summary += ` For ${this.state.numberOfGuests} people`
+        summary += `For ${this.state.numberOfGuests} people`
       }
       if(this.state.date) {
-        summary += `, on ${this.state.date}`
+        summary += ` on ${this.state.date}`
       }
       if(this.state.timeRange) {
-        summary += `, at ${this.state.timeRange}`
+        summary += ` at ${this.state.timeRange}`
       }
 
       this.setState({

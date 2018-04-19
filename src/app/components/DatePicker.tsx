@@ -19,14 +19,11 @@ class DatePicker extends React.Component<any> {
 
   constructor(props) {
     super(props);
-    this.state = {
-      scheduleAt: moment(new Date())
-    };
     this.handleDate = this.handleDate.bind(this);
   }
 
   handleDate(newDate) {
-    const {scheduleAt} = this.state;
+    const scheduleAt = moment(new Date());
     scheduleAt.set({
       year: newDate.get('year'),
       month: newDate.get('month'),
@@ -39,7 +36,6 @@ class DatePicker extends React.Component<any> {
   };
 
   render() {
-    const {scheduleAt} = this.state;
     const yesterday = moment().subtract(1, 'day');
     const validDate = (current) =>
       current.isAfter(yesterday)
@@ -55,7 +51,7 @@ class DatePicker extends React.Component<any> {
           timeFormat={false}
           isValidDate={validDate}
           onChange={this.handleDate}
-          value={scheduleAt}
+          value={this.state.scheduleAt}
         />
       </div>
     )
