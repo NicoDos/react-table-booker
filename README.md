@@ -69,9 +69,7 @@ If you consider contributing to this project, well thanks. I will (or you can) a
 
 * **Nicolas Sandron** - *Initial work* - [NicoDos](https://github.com/NicoDos)
 
-```html
 <link rel="stylesheet" href="./README.css">
-```
 
 ## License
 
