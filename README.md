@@ -6,10 +6,10 @@ This project is a basic booking system when users need to provide:
 - Time range of arrival
 - Contact information
 
-![Number of people](http://nicolassandron.com/table-booker/nbr-of-people.png)
-![Date of arrival](http://nicolassandron.com/table-booker/date-of-arrival.png)
-![Time Range](http://nicolassandron.com/table-booker/time-range.png)
-![Details](http://nicolassandron.com/table-booker/details.png)
+<img src="http://nicolassandron.com/table-booker/nbr-of-people.png" width="200" style="display: inline-block;">
+<img src="http://nicolassandron.com/table-booker/date-of-arrival.png" width="200" style="display: inline-block;">
+<img src="http://nicolassandron.com/table-booker/time-range.png" width="200" style="display: inline-block;">
+<img src="http://nicolassandron.com/table-booker/details.png" width="200" style="display: inline-block;">
 
 ## Getting Started
 
@@ -18,6 +18,20 @@ This project is a basic booking system when users need to provide:
 This app requires node and npm
 
 ### Installing
+
+clone repo
+
+```
+git clone git@github.com:NicoDos/react-table-booker.git
+```
+
+move into folder
+
+```
+cd ~/react-table-booker
+```
+
+install dependencies
 
 ```
 yarn install
@@ -29,13 +43,13 @@ yarn install
 yarn start
 ```
 
-## Deployment
+### Building
 
 ```
 yarn build
 ```
 
-You can deploy with Docker!
+### Buidling docker image
 
 ```
 docker build -t table-booker .
@@ -54,6 +68,10 @@ If you consider contributing to this project, well thanks. I will (or you can) a
 ## Authors
 
 * **Nicolas Sandron** - *Initial work* - [NicoDos](https://github.com/NicoDos)
+
+```html
+<link rel="stylesheet" href="./README.css">
+```
 
 ## License
 
